@@ -7,7 +7,7 @@ import resolveRoutes from '../utils/resolveRoutes';
 
 // ROUTES TO BE RENDER
 const  routes = {
-    '/': Home,
+    '/': Home,      //works on webpack, need to be fix for open server
     '/:id': Character,
     '/contact': 'Contact',
 };
